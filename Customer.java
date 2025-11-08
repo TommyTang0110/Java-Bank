@@ -75,4 +75,11 @@ public class Customer extends User {
     public static void main(String[] args) {
         new Customer().start();
     }
+    public CheckingAccount getCheckingAccount() {
+    return checking;
+}
+
+public SavingsAccount getSavingsAccount() {
+    return savings;
+}
 }
